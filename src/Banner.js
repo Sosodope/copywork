@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { Row, Input } from "react-materialize";
 
 const SearchBar = props => {
   return (
     <React.Fragment>
-      <input type="text" placeholder="Search React or type URL" />
+      <Row>
+        <Input type="text" placeholder="Search here or type URL" />
+      </Row>
     </React.Fragment>
   );
 };
